@@ -6,7 +6,7 @@ int main()
     cout << "enter the total number of element = ";
     cin >> n;
     int a[n];
-    cout << "the size of your array is = " << sizeof a;
+    cout << "the size of your array is = " << sizeof a; // 4 bytes each
     return 0;
     // here, no choice or syntax is available for changing the size of aray again that's why
     // we use pointer.

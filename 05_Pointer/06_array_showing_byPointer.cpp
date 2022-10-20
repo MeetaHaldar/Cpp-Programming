@@ -6,7 +6,7 @@ int main()
     int *p = A;
     for (int i = 0; i < 6; i++)
     {
-        cout << i[p];
+        cout << i[p] << " ";
         // p[i]
     }
     return 0;
